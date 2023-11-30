@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background 0.5s ease-in-out;
+}
+
+.quote-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quote {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.quote:hover {
+    transform: scale(1.05);
+}
+
+.quote p {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#quote-0 { color: #3498db; font-weight: bold; font-style: italic; font-family: 'Lobster', cursive; }
+#quote-1 { color: #e74c3c; font-size: 1.8em; font-weight: normal; font-family: 'Pacifico', cursive; }
+#quote-2 { color: #2ecc71; font-size: 1.2em; font-weight: 700; font-family: 'Montserrat', sans-serif; }
+#quote-3 { color: #9b59b6; font-style: italic; font-weight: bold; font-family: 'Cinzel', serif; }
+#quote-4 { color: #e67e22; font-size: 1.6em; font-weight: 700; font-family: 'Playfair Display', serif; }
+#quote-5 { color: #27ae60; font-size: 1.4em; font-weight: normal; font-family: 'Poppins', sans-serif; }
+#quote-6 { color: #f39c12; font-size: 1.7em; font-weight: bold; font-family: 'Roboto Slab', serif; }
+#quote-7 { color: #c0392b; font-size: 1.3em; font-weight: normal; font-family: 'Source Sans Pro', sans-serif; }
+#quote-8 { color: #2980b9; font-size: 1.6em; font-weight: bold; font-family: 'Bitter', serif; }
+#quote-9 { color: #e74c3c; font-size: 1.4em; font-weight: 700; font-family: 'Merriweather', serif; }
